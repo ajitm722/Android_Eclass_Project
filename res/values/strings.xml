@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ClassDB</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="question1">Time Complexity of an algorithm estimates how much time algorithm will
+                                use for some input, with the idea of representing the efficiency of
+                                algorithm as a function whose parameter is size of the input.</string>
+    <string name="question2">For k nested loops , time complexity of the algorithm with input size n
+                                is O(k^n).</string>
+    <string name="question3">The time complexity tells us the exact number of times a loop is executed
+                            and not the order of magnitude.</string>
+    <string name="question4">If algorithm consists of consecutive phases, The total time complexity
+                            is the largest time complexity of a single phase.\n\tFor example, If there are 3
+                            phases with time complexity O(n),O(n^2),O(n), then total time
+                            complexity is O(n^2).</string>
+    <string name="question5">Time complexity of a recursive function depends on number of times a
+                            function is called and time complexity of a single call.</string>
+    <string name="question6"><b>O(1) :</b> It is the running time of a constant-time algorithm that does not
+                            depend on the input size.</string>
+    <string name="question7"><b>O(log n) :</b> A logarithmic algorithm that often halves the input at each
+                            step, as log n equals the number of times n must be divided by 2 to
+                                get 1.</string>
+    <string name="question8"><b>O(sqrt(n)) :</b> It is faster than O(n) and O(log n).</string>
+    <string name="question9"><b>O(nlog n) :</b> It is Time Complexity of an efficient sorting algorithm OR
+                                the algorithm uses a data structure where each operation takes
+                                O(log n) time.</string>
+    <string name="question10"><b>O(2^n) :</b> It often indicates algorithm iterates through all subsets of
+                            the input elements.\nFor example, (1,2,3) : null,(1),(2),(3),(1,2),(1,3),
+                            (2,3),(1,2,3)</string>
+    <string name="question11"><b>O(n!) :</b> It often indicates algorithm iterates through all permutations of
+                            the input elements.\nFor example, (1,2,3) : (1,2,3),(1,3,2),(2,1,3),(2,3,1)
+                            (3,1,2),(3,2,1)</string>
+    <string name="question12">Generally for input size n>10^6 , it must be computed in O(1) or
+                            O(log n) time complexity.</string>
+    <string name="next_text">next</string>
+</resources>
